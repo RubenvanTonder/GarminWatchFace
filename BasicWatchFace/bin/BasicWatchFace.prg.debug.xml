@@ -1,57 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-<manifest filename="C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\manifest.xml"/>
+<manifest filename="C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="1" lineNum="31" parent="globals" pc="268435460" symbol="getApp"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="2" lineNum="6" parent="globals/Background" pc="268435486" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="3" lineNum="8" parent="globals/Background" pc="268435505" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="3" lineNum="9" parent="globals/Background" pc="268435509" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="3" lineNum="13" parent="globals/Background" pc="268435530" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="4" lineNum="16" parent="globals/Background" pc="268435551" symbol="draw"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="4" lineNum="18" parent="globals/Background" pc="268435553" symbol="draw"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="4" lineNum="19" parent="globals/Background" pc="268435595" symbol="draw"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="5" lineNum="8" parent="globals/BasicWatchFaceView" pc="268435608" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="8" lineNum="16" parent="globals/BasicWatchFaceView" pc="268435627" symbol="onLayout"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="8" lineNum="17" parent="globals/BasicWatchFaceView" pc="268435629" symbol="onLayout"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="10" lineNum="10" parent="globals/BasicWatchFaceView" pc="268435671" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="10" lineNum="11" parent="globals/BasicWatchFaceView" pc="268435673" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="12" lineNum="28" parent="globals/BasicWatchFaceView" pc="268435692" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="12" lineNum="30" parent="globals/BasicWatchFaceView" pc="268435696" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="12" lineNum="31" parent="globals/BasicWatchFaceView" pc="268435713" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="12" lineNum="32" parent="globals/BasicWatchFaceView" pc="268435787" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="12" lineNum="33" parent="globals/BasicWatchFaceView" pc="268435815" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="12" lineNum="35" parent="globals/BasicWatchFaceView" pc="268435829" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="12" lineNum="36" parent="globals/BasicWatchFaceView" pc="268435846" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="12" lineNum="37" parent="globals/BasicWatchFaceView" pc="268435876" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="12" lineNum="38" parent="globals/BasicWatchFaceView" pc="268435904" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="12" lineNum="41" parent="globals/BasicWatchFaceView" pc="268435918" symbol="onUpdate"/>
-<entry filename="Rez.mc" id="13" lineNum="1" parent="globals/Rez" pc="268435943" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="14" lineNum="5" parent="globals/BasicWatchFaceApp" pc="268435967" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="15" lineNum="12" parent="globals/BasicWatchFaceApp" pc="268435986" symbol="onStart"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="16" lineNum="25" parent="globals/BasicWatchFaceApp" pc="268435989" symbol="onSettingsChanged"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="16" lineNum="26" parent="globals/BasicWatchFaceApp" pc="268435991" symbol="onSettingsChanged"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="17" lineNum="20" parent="globals/BasicWatchFaceApp" pc="268436008" symbol="getInitialView"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="17" lineNum="21" parent="globals/BasicWatchFaceApp" pc="268436010" symbol="getInitialView"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="18" lineNum="7" parent="globals/BasicWatchFaceApp" pc="268436051" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="18" lineNum="8" parent="globals/BasicWatchFaceApp" pc="268436053" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\myFirstWatchFace\\resources\\layouts\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="19" lineNum="16" parent="globals/BasicWatchFaceApp" pc="268436072" symbol="onStop"/>
-<entry filename="Rez.mc" id="20" lineNum="17" parent="globals/Rez/Layouts" pc="268436075" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="20" lineNum="19" parent="globals/Rez/Layouts" pc="268436087" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="20" lineNum="20" parent="globals/Rez/Layouts" pc="268436115" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="20" lineNum="21" parent="globals/Rez/Layouts" pc="268436250" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="20" lineNum="23" parent="globals/Rez/Layouts" pc="268436385" symbol="WatchFace"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="1" lineNum="31" parent="globals" pc="268435460" symbol="getApp"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="2" lineNum="6" parent="globals/Background" pc="268435486" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="3" lineNum="8" parent="globals/Background" pc="268435505" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="3" lineNum="9" parent="globals/Background" pc="268435509" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="3" lineNum="13" parent="globals/Background" pc="268435530" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="4" lineNum="16" parent="globals/Background" pc="268435551" symbol="draw"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="4" lineNum="18" parent="globals/Background" pc="268435553" symbol="draw"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceBackground.mc" id="4" lineNum="19" parent="globals/Background" pc="268435595" symbol="draw"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="5" lineNum="9" parent="globals/BasicWatchFaceView" pc="268435608" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="6" lineNum="55" parent="globals/BasicWatchFaceView" pc="268435627" symbol="compute"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="6" lineNum="56" parent="globals/BasicWatchFaceView" pc="268435629" symbol="compute"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="6" lineNum="57" parent="globals/BasicWatchFaceView" pc="268435640" symbol="compute"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="6" lineNum="58" parent="globals/BasicWatchFaceView" pc="268435653" symbol="compute"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="6" lineNum="60" parent="globals/BasicWatchFaceView" pc="268435672" symbol="compute"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="9" lineNum="18" parent="globals/BasicWatchFaceView" pc="268435689" symbol="onLayout"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="9" lineNum="19" parent="globals/BasicWatchFaceView" pc="268435691" symbol="onLayout"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="11" lineNum="12" parent="globals/BasicWatchFaceView" pc="268435733" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="11" lineNum="13" parent="globals/BasicWatchFaceView" pc="268435735" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="11" lineNum="14" parent="globals/BasicWatchFaceView" pc="268435753" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="30" parent="globals/BasicWatchFaceView" pc="268435767" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="32" parent="globals/BasicWatchFaceView" pc="268435771" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="33" parent="globals/BasicWatchFaceView" pc="268435788" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="34" parent="globals/BasicWatchFaceView" pc="268435862" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="35" parent="globals/BasicWatchFaceView" pc="268435890" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="38" parent="globals/BasicWatchFaceView" pc="268435904" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="39" parent="globals/BasicWatchFaceView" pc="268435921" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="40" parent="globals/BasicWatchFaceView" pc="268435951" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="41" parent="globals/BasicWatchFaceView" pc="268435979" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="43" parent="globals/BasicWatchFaceView" pc="268435993" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="44" parent="globals/BasicWatchFaceView" pc="268436021" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="47" parent="globals/BasicWatchFaceView" pc="268436055" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="48" parent="globals/BasicWatchFaceView" pc="268436094" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="49" parent="globals/BasicWatchFaceView" pc="268436122" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceView.mc" id="13" lineNum="51" parent="globals/BasicWatchFaceView" pc="268436246" symbol="onUpdate"/>
+<entry filename="Rez.mc" id="14" lineNum="1" parent="globals/Rez" pc="268436271" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="15" lineNum="5" parent="globals/BasicWatchFaceApp" pc="268436295" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="16" lineNum="12" parent="globals/BasicWatchFaceApp" pc="268436314" symbol="onStart"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="17" lineNum="25" parent="globals/BasicWatchFaceApp" pc="268436317" symbol="onSettingsChanged"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="17" lineNum="26" parent="globals/BasicWatchFaceApp" pc="268436319" symbol="onSettingsChanged"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="18" lineNum="20" parent="globals/BasicWatchFaceApp" pc="268436336" symbol="getInitialView"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="18" lineNum="21" parent="globals/BasicWatchFaceApp" pc="268436338" symbol="getInitialView"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="19" lineNum="7" parent="globals/BasicWatchFaceApp" pc="268436379" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="19" lineNum="8" parent="globals/BasicWatchFaceApp" pc="268436381" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\BasicWatchFace\\source\\BasicWatchFaceApp.mc" id="20" lineNum="16" parent="globals/BasicWatchFaceApp" pc="268436400" symbol="onStop"/>
+<entry filename="Rez.mc" id="21" lineNum="17" parent="globals/Rez/Layouts" pc="268436403" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="21" lineNum="19" parent="globals/Rez/Layouts" pc="268436415" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="21" lineNum="20" parent="globals/Rez/Layouts" pc="268436443" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="21" lineNum="21" parent="globals/Rez/Layouts" pc="268436578" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="21" lineNum="22" parent="globals/Rez/Layouts" pc="268436690" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="21" lineNum="23" parent="globals/Rez/Layouts" pc="268436802" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="21" lineNum="25" parent="globals/Rez/Layouts" pc="268436914" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="7" module="true" symbol="globals/Rez/Menus"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-<entry field="true" id="20" symbol="ColorRed"/>
-<entry field="true" id="23" symbol="MilitaryFormatTitle"/>
+<entry field="true" id="21" symbol="ColorRed"/>
+<entry field="true" id="24" symbol="MilitaryFormatTitle"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="17" symbol="ColorBlue"/>
-<entry field="true" id="14" symbol="AppName"/>
+<entry field="true" id="18" symbol="ColorBlue"/>
+<entry field="true" id="15" symbol="AppName"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
@@ -62,18 +76,20 @@
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry id="12" module="true" symbol="Menus"/>
+<entry id="13" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
-<entry field="true" id="18" symbol="ColorDarkGray"/>
+<entry field="true" id="19" symbol="ColorDarkGray"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="21" symbol="ColorWhite"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry field="true" id="22" symbol="ColorWhite"/>
 <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-<entry field="true" id="16" symbol="ColorBlack"/>
+<entry field="true" id="17" symbol="ColorBlack"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="11" symbol="hrValue"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
@@ -81,23 +97,24 @@
 <entry id="10" object="true" symbol="BasicWatchFaceView"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry field="true" id="14" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
 <entry id="8389350" module="true" symbol="globals"/>
-<entry field="true" id="15" symbol="BackgroundColorTitle"/>
+<entry field="true" id="16" symbol="BackgroundColorTitle"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8390146" module="true" object="true" symbol="Background"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="19" symbol="ColorLightGray"/>
+<entry field="true" id="8388747" symbol="currentHeartRate"/>
+<entry field="true" id="20" symbol="ColorLightGray"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389347" symbol="color"/>
 <entry id="9" object="true" symbol="BasicWatchFaceApp"/>
-<entry field="true" id="22" symbol="ForegroundColorTitle"/>
-<entry id="11" module="true" symbol="Layouts"/>
+<entry field="true" id="23" symbol="ForegroundColorTitle"/>
+<entry id="12" module="true" symbol="Layouts"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8388635" module="true" symbol="Application"/>
@@ -105,18 +122,24 @@
 <localVars>
 <entry endPc="268435549" name="dictionary" stackId="1" startPc="268435509"/>
 <entry arg="true" endPc="268435607" name="dc" stackId="1" startPc="268435551"/>
-<entry arg="true" endPc="268435670" name="dc" stackId="1" startPc="268435627"/>
-<entry arg="true" endPc="268435942" name="dc" stackId="1" startPc="268435692"/>
-<entry endPc="268435941" name="clockTime" stackId="2" startPc="268435696"/>
-<entry endPc="268435941" name="timeString" stackId="3" startPc="268435696"/>
-<entry endPc="268435941" name="view" stackId="4" startPc="268435696"/>
-<entry endPc="268435941" name="systemStat" stackId="5" startPc="268435696"/>
-<entry endPc="268435941" name="batteryString" stackId="6" startPc="268435696"/>
-<entry endPc="268435941" name="viewBattery" stackId="7" startPc="268435696"/>
-<entry arg="true" endPc="268436421" name="dc" stackId="1" startPc="268436075"/>
-<entry endPc="268436421" name="rez_cmp_local_custom_drawable_10387810043754590628" stackId="2" startPc="268436087"/>
-<entry endPc="268436421" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436087"/>
-<entry endPc="268436421" name="rez_cmp_local_text_Battery" stackId="4" startPc="268436087"/>
+<entry arg="true" endPc="268435688" name="info" stackId="1" startPc="268435627"/>
+<entry arg="true" endPc="268435732" name="dc" stackId="1" startPc="268435689"/>
+<entry arg="true" endPc="268436270" name="dc" stackId="1" startPc="268435767"/>
+<entry endPc="268436269" name="clockTime" stackId="2" startPc="268435771"/>
+<entry endPc="268436269" name="timeString" stackId="3" startPc="268435771"/>
+<entry endPc="268436269" name="view" stackId="4" startPc="268435771"/>
+<entry endPc="268436269" name="systemStat" stackId="5" startPc="268435771"/>
+<entry endPc="268436269" name="batteryString" stackId="6" startPc="268435771"/>
+<entry endPc="268436269" name="viewBattery" stackId="7" startPc="268435771"/>
+<entry endPc="268436269" name="value" stackId="8" startPc="268435771"/>
+<entry endPc="268436269" name="date" stackId="9" startPc="268435771"/>
+<entry endPc="268436269" name="dayOfWeek" stackId="10" startPc="268435771"/>
+<entry arg="true" endPc="268436970" name="dc" stackId="1" startPc="268436403"/>
+<entry endPc="268436970" name="rez_cmp_local_custom_drawable_20921157771114344837" stackId="2" startPc="268436415"/>
+<entry endPc="268436970" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436415"/>
+<entry endPc="268436970" name="rez_cmp_local_text_Battery" stackId="4" startPc="268436415"/>
+<entry endPc="268436970" name="rez_cmp_local_text_heartRate" stackId="5" startPc="268436415"/>
+<entry endPc="268436970" name="rez_cmp_local_text_DayOfWeek" stackId="6" startPc="268436415"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
@@ -135,14 +158,14 @@
 <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/Background" offset="166" parentId="globals" symbolId="Background" type="class"/>
 <dataEntry label="globals/BasicWatchFaceView" offset="221" parentId="globals" symbolId="BasicWatchFaceView" type="class"/>
-<dataEntry label="globals/Rez" offset="316" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/BasicWatchFaceApp" offset="395" parentId="globals" symbolId="BasicWatchFaceApp" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="474" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="513" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="552" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="583" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="614" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="725" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez" offset="332" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/BasicWatchFaceApp" offset="411" parentId="globals" symbolId="BasicWatchFaceApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="490" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="529" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="568" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="599" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="630" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="741" parentId="Rez" symbolId="JsonData" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -161,49 +184,53 @@
 <functionEntry accessMode="public" endPc="268435626" name="&lt;init&gt;" parent="BasicWatchFaceView" startPc="268435608">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" endPc="268435688" name="compute" parent="BasicWatchFaceView" startPc="268435627">
+<param id="info"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="onExitSleep" parent="BasicWatchFaceView">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onShow" parent="BasicWatchFaceView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435670" name="onLayout" parent="BasicWatchFaceView" startPc="268435627">
+<functionEntry accessMode="public" endPc="268435732" name="onLayout" parent="BasicWatchFaceView" startPc="268435689">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="BasicWatchFaceView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435691" name="initialize" parent="BasicWatchFaceView" startPc="268435671">
+<functionEntry accessMode="public" endPc="268435766" name="initialize" parent="BasicWatchFaceView" startPc="268435733">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="BasicWatchFaceView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435942" name="onUpdate" parent="BasicWatchFaceView" startPc="268435692">
+<functionEntry accessMode="public" endPc="268436270" name="onUpdate" parent="BasicWatchFaceView" startPc="268435767">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435966" name="&lt;init&gt;" parent="Rez" startPc="268435943">
+<functionEntry accessMode="public" endPc="268436294" name="&lt;init&gt;" parent="Rez" startPc="268436271">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435985" name="&lt;init&gt;" parent="BasicWatchFaceApp" startPc="268435967">
+<functionEntry accessMode="public" endPc="268436313" name="&lt;init&gt;" parent="BasicWatchFaceApp" startPc="268436295">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435988" name="onStart" parent="BasicWatchFaceApp" startPc="268435986">
+<functionEntry accessMode="public" endPc="268436316" name="onStart" parent="BasicWatchFaceApp" startPc="268436314">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436007" name="onSettingsChanged" parent="BasicWatchFaceApp" startPc="268435989">
+<functionEntry accessMode="public" endPc="268436335" name="onSettingsChanged" parent="BasicWatchFaceApp" startPc="268436317">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436050" name="getInitialView" parent="BasicWatchFaceApp" startPc="268436008">
+<functionEntry accessMode="public" endPc="268436378" name="getInitialView" parent="BasicWatchFaceApp" startPc="268436336">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436071" name="initialize" parent="BasicWatchFaceApp" startPc="268436051">
+<functionEntry accessMode="public" endPc="268436399" name="initialize" parent="BasicWatchFaceApp" startPc="268436379">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436074" name="onStop" parent="BasicWatchFaceApp" startPc="268436072">
+<functionEntry accessMode="public" endPc="268436402" name="onStop" parent="BasicWatchFaceApp" startPc="268436400">
 <param id="state"/>
 <documentation/>
 </functionEntry>
@@ -225,7 +252,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436421" name="WatchFace" parent="Layouts" startPc="268436075">
+<functionEntry accessMode="public" endPc="268436970" name="WatchFace" parent="Layouts" startPc="268436403">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

@@ -4,6 +4,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Sensor;
+import Toybox.Time.Gregorian;
 
 class BasicWatchFaceView extends WatchUi.WatchFace {
     hidden var hrValue;
@@ -39,6 +40,13 @@ class BasicWatchFaceView extends WatchUi.WatchFace {
         var viewBattery = View.findDrawableById("Battery") as Text;
         viewBattery.setText(batteryString);
 
+        var value = View.findDrawableById("heartRate") as Text;
+        value.setText(hrValue.format("%.2f"));
+
+        //Get Day of the week
+        var date = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var dayOfWeek = View.findDrawableById("DayOfWeek") as Text;
+        dayOfWeek.setText(["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][date.day_of_week - 1]);
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
@@ -49,7 +57,7 @@ class BasicWatchFaceView extends WatchUi.WatchFace {
             if (info.currentHeartRate != null){
                 hrValue = info.currentHeartRate;
             }else{
-                hrValue = 0.0f;
+                hrValue = 0f;
             }
         }
     }

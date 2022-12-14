@@ -1,37 +1,45 @@
-[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 1; ]
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 1; ]
 import Toybox.Application;
-[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 2; ]
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 2; ]
 import Toybox.Graphics;
-[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 3; ]
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 3; ]
 import Toybox.Lang;
-[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 4; ]
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 4; ]
 import Toybox.System;
-[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 5; ]
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 5; ]
 import Toybox.WatchUi;
-[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 6; ]
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 6; ]
 import Toybox.Sensor;
-[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 8; ]
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 7; ]
+import Toybox.Time.Gregorian;
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 9; ]
 class BasicWatchFaceView extends WatchUi.WatchFace{
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 8; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 9; ]
     <init> {
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 8; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 9; ]
     static
     <init> {
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 10; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 10; @position = 15; ]
+    protected
+    var hrValue;
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 12; ]
     function initialize() as Void {
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_10_26_start:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 11 8 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_12_26_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 13 8 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_10_26_stop:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 14 8 ]
+        %tmp.4 = 0.0f;
+        putv self :hrValue %tmp.4;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_12_26_stop:
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 16; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 18; ]
     function onLayout(dc as Dc) as Void {
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_16_40_start:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 17 8 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_18_40_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 19 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -40,23 +48,23 @@ C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_16_40_stop:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_18_40_stop:
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 24; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 26; ]
     function onShow() as Void {
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 28; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 30; ]
     function onUpdate(dc as Dc) as Void {
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_start:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 30 8 ]
-        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_stop" ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 32 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_stop" ]
         %clockTime.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getClockTime;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %clockTime.1 %tmp.3;
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 31 8 ]
-        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_stop" ]
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 33 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_stop" ]
         %timeString.2 = local;
         %tmp.4 = getm $.Toybox.Lang;
         %tmp.5 = getv function %tmp.4 :format;
@@ -75,8 +83,8 @@ C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources
         %tmp.18 = aputv %tmp.17 1 %tmp.16;
         %tmp.19 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.18);
         lputv %timeString.2 %tmp.19;
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 32 8 ]
-        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_stop" ]
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 34 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_stop" ]
         %view.3 = local;
         %tmp.21 = getv ? :View;
         %tmp.22 = getv function %tmp.21 :findDrawableById;
@@ -84,20 +92,20 @@ C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources
         %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
         %tmp.25 = as %tmp.24 Text;
         lputv %view.3 %tmp.25;
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 33 8 ]
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 35 8 ]
         %tmp.26 = lgetv %view.3;
         %tmp.27 = getv function %tmp.26 :setText;
         %tmp.29 = lgetv %timeString.2;
         invoke %tmp.26 %tmp.27(%tmp.29);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 35 8 ]
-        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_stop" ]
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 38 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_stop" ]
         %systemStat.4 = local;
         %tmp.30 = getm $.Toybox.System;
         %tmp.31 = getv function %tmp.30 :getSystemStats;
         %tmp.32 = invoke %tmp.30 %tmp.31();
         lputv %systemStat.4 %tmp.32;
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 36 8 ]
-        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_stop" ]
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 39 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_stop" ]
         %batteryString.5 = local;
         %tmp.33 = lgetv %systemStat.4;
         %tmp.34 = getv %tmp.33 :battery;
@@ -107,8 +115,8 @@ C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources
         %tmp.38 = "%";
         %tmp.39 = add %tmp.37 %tmp.38;
         lputv %batteryString.5 %tmp.39;
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 37 8 ]
-        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_stop" ]
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 40 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_stop" ]
         %viewBattery.6 = local;
         %tmp.41 = getv ? :View;
         %tmp.42 = getv function %tmp.41 :findDrawableById;
@@ -116,28 +124,137 @@ C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources
         %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
         %tmp.45 = as %tmp.44 Text;
         lputv %viewBattery.6 %tmp.45;
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 38 8 ]
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 41 8 ]
         %tmp.46 = lgetv %viewBattery.6;
         %tmp.47 = getv function %tmp.46 :setText;
         %tmp.49 = lgetv %batteryString.5;
         invoke %tmp.46 %tmp.47(%tmp.49);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc" 41 8 ]
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 43 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_stop" ]
+        %value.7 = local;
         %tmp.51 = getv ? :View;
-        %tmp.52 = getv function %tmp.51 :onUpdate;
-        %tmp.54 = lgetv %dc;
-        invoke %tmp.51 %tmp.52(%tmp.54);
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_myFirstWatchFace_resources_layouts_BasicWatchFace_source_BasicWatchFaceView_mc_28_40_stop:
+        %tmp.52 = getv function %tmp.51 :findDrawableById;
+        %tmp.53 = "heartRate";
+        %tmp.54 = invoke %tmp.51 %tmp.52(%tmp.53);
+        %tmp.55 = as %tmp.54 Text;
+        lputv %value.7 %tmp.55;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 44 8 ]
+        %tmp.56 = lgetv %value.7;
+        %tmp.57 = getv function %tmp.56 :setText;
+        %tmp.59 = getv ? :hrValue;
+        %tmp.60 = getv function %tmp.59 :format;
+        %tmp.61 = "%.2f";
+        %tmp.62 = invoke %tmp.59 %tmp.60(%tmp.61);
+        invoke %tmp.56 %tmp.57(%tmp.62);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 47 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_stop" ]
+        %date.8 = local;
+        %tmp.63 = getm $.Toybox.Time.Gregorian;
+        %tmp.64 = getv function %tmp.63 :info;
+        %tmp.66 = getv ? :Time;
+        %tmp.67 = getv function %tmp.66 :now;
+        %tmp.68 = invoke %tmp.66 %tmp.67();
+        %tmp.70 = getv ? :Time;
+        %tmp.71 = getv %tmp.70 :FORMAT_SHORT;
+        %tmp.72 = invoke %tmp.63 %tmp.64(%tmp.68, %tmp.71);
+        lputv %date.8 %tmp.72;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 48 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_stop" ]
+        %dayOfWeek.9 = local;
+        %tmp.74 = getv ? :View;
+        %tmp.75 = getv function %tmp.74 :findDrawableById;
+        %tmp.76 = "DayOfWeek";
+        %tmp.77 = invoke %tmp.74 %tmp.75(%tmp.76);
+        %tmp.78 = as %tmp.77 Text;
+        lputv %dayOfWeek.9 %tmp.78;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 49 8 ]
+        %tmp.79 = lgetv %dayOfWeek.9;
+        %tmp.80 = getv function %tmp.79 :setText;
+        %tmp.81 = newa 7;
+        %tmp.82 = "Sun";
+        %tmp.83 = dup %tmp.81;
+        %tmp.84 = aputv %tmp.83 0 %tmp.82;
+        %tmp.85 = "Mon";
+        %tmp.86 = dup %tmp.84;
+        %tmp.87 = aputv %tmp.86 1 %tmp.85;
+        %tmp.88 = "Tue";
+        %tmp.89 = dup %tmp.87;
+        %tmp.90 = aputv %tmp.89 2 %tmp.88;
+        %tmp.91 = "Wed";
+        %tmp.92 = dup %tmp.90;
+        %tmp.93 = aputv %tmp.92 3 %tmp.91;
+        %tmp.94 = "Thu";
+        %tmp.95 = dup %tmp.93;
+        %tmp.96 = aputv %tmp.95 4 %tmp.94;
+        %tmp.97 = "Fri";
+        %tmp.98 = dup %tmp.96;
+        %tmp.99 = aputv %tmp.98 5 %tmp.97;
+        %tmp.100 = "Sat";
+        %tmp.101 = dup %tmp.99;
+        %tmp.102 = aputv %tmp.101 6 %tmp.100;
+        %tmp.103 = lgetv %date.8;
+        %tmp.104 = getv %tmp.103 :day_of_week;
+        %tmp.105 = 1;
+        %tmp.106 = sub %tmp.104 %tmp.105;
+        %tmp.107 = agetv %tmp.102 %tmp.106;
+        invoke %tmp.79 %tmp.80(%tmp.107);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 51 8 ]
+        %tmp.109 = getv ? :View;
+        %tmp.110 = getv function %tmp.109 :onUpdate;
+        %tmp.112 = lgetv %dc;
+        invoke %tmp.109 %tmp.110(%tmp.112);
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_30_40_stop:
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 47; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 55; ]
+    function compute(info) {
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_55_26_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 56 8 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_56_8_if_stmt:
+        %tmp.2 = lgetv %info;
+        %tmp.4 = const :currentHeartRate;
+        %tmp.5 = canhazplz %tmp.2 %tmp.4;
+        bf %tmp.5 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_56_8_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_56_8_if_true:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_56_39_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 57 12 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_57_12_if_stmt:
+        %tmp.6 = lgetv %info;
+        %tmp.7 = as %tmp.6 { (interface { var currentHeartRate; }) };
+        %tmp.8 = getv %tmp.7 :currentHeartRate;
+        %tmp.9 = null;
+        %tmp.10 = ne %tmp.8 %tmp.9;
+        bf %tmp.10 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_57_12_if_false;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_57_12_if_true:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_57_46_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 58 16 ]
+        %tmp.11 = lgetv %info;
+        %tmp.12 = as %tmp.11 { (interface { var currentHeartRate; }) };
+        %tmp.13 = getv %tmp.12 :currentHeartRate;
+        putv self :hrValue %tmp.13;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_57_46_stop:
+        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_57_12_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_57_12_if_false:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_59_17_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc" 60 16 ]
+        %tmp.14 = 0f;
+        putv self :hrValue %tmp.14;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_59_17_stop:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_57_12_if_end:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_56_39_stop:
+        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_56_8_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_56_8_if_end:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_BasicWatchFace_source_BasicWatchFaceView_mc_55_26_stop:
+    }
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 68; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 51; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 72; ]
     function onExitSleep() as Void {
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 55; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 76; ]
     function onEnterSleep() as Void {
     }
 }
-[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\myFirstWatchFace\resources\layouts\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 1; ]
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\BasicWatchFace\source\BasicWatchFaceView.mc"; @line = 1; ]
 <init> {
 }
