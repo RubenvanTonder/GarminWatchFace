@@ -1,0 +1,21 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <label id="TimeLabel" 
+    x="30%" 
+    y="center" 
+    font="Graphics.FONT_LARGE" 
+    justification="Graphics.TEXT_JUSTIFY_CENTER" 
+    color="Graphics.COLOR_BLUE" />
+    <label id="Battery"
+    x="70%"
+    y="center"
+    font="Graphics.FONT_LARGE"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_WHITE" />
+    <label id="hearRate"
+    x="center"
+    y="70%"
+    font="Graphics.FONT_LARGE"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_WHITE" />
+</layout>
